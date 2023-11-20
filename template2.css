@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 40vh;
+    width: 100vw;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 40vh;
+    align-items: center;
+    border: 2px solid rgb(102, 128, 0);
+}
+img{
+    border-radius: 50%;
+}
+.note{
+     display: flex ;
+     justify-content: center;
+     flex-direction:column;
+     width: 60vw;
+     height: 40vh;
+     align-items: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+     border: 2px solid purple ;
+}
+           /* footer */
+ .footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+}
+.sunil1, .sunil2,.sunil3{
+    width: 100vw;
+    height:20vh ;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid red;
+    background-color: aquamarine;
+}
+.id1, .id3, .id5{
+    width:  40vw; 
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 100px; 
+    /* border: 2px solid red; */
+} 
+.id2, .id4, .id6{
+     display: flex;
+     justify-content: center;
+     flex-direction:row;
+     width: 60vw;
+     height: 20vh;
+     align-items: center;
+}
+/* .sunil2{
+    height:20vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.id3{
+    width:  40vw; 
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+} */
